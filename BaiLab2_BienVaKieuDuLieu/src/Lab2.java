@@ -12,6 +12,12 @@ public class Lab2 {
         int tong = a + b;
         double thuong = a / c;
         int phanDu = a % b;
+        
+        // 3. In kết quả
+        System.out.println("Tổng: " + tong);
+        System.out.println("Thương: " + thuong);
+        System.out.println("Phần dư: " + phanDu);
+
 	}
 
 }
