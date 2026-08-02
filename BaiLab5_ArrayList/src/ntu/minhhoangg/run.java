@@ -32,10 +32,27 @@ public class run {
 //			Integer tam = dsSoNguyen.get(i);
 //			System.out.print(tam + " ");
 //		}
+	
 		//Mỗi một phần tử x có kiểu dữ liệu là Integer, trong danh sách các phần tử số nguyên này
 		for( Integer x: dsSoNguyen) {
 			System.out.print(x + " ");
 		}
+		
+		//Đếm số phần tử chẵn
+		int soLuongPTchan = 0;
+		for( Integer x: dsSoNguyen) {
+			//Nếu x chẵn (chia 2 = 0) thì tăng biến đếm thêm 1 đơn vị
+			if(x % 2 ==0) soLuongPTchan = soLuongPTchan+1;
+//			if(x % 2 ==0) soLuongPTchan++;
+		}
+		System.out.print("\nSố phần tử chẵn: "+soLuongPTchan);
+		//Tính tổng các phần tử: Thuật toán cộng dồn
+			int TongAll = 0;
+			for(Integer x: dsSoNguyen) {
+				TongAll = TongAll +x;
+			}
+			System.out.println("\nTổng tất cả các phần tử là: "+TongAll);
+
 	}
 
 }
