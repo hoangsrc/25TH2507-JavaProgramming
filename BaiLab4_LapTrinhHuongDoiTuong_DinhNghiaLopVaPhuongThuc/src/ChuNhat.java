@@ -28,5 +28,11 @@ public class ChuNhat {
 		this.rong = rong;
 	}
 
-
+	//Các phương thức khác
+	public String toString() {
+		//Tóm tắt thông tin của đối tượng
+		//thành một chuỗi, để in ra màn hình
+		String s = "Hình này có chiều dài = "+ dai +" và chiều rộng = " + rong;
+		return s;
+	}
 }
