@@ -24,6 +24,18 @@ public class run {
 		dsSoNguyen.add(tam);
 	}
 		
+		//In ra danh sách vừa được nhập
+//		System.out.print("Danh sách vừa được nhập là: ");
+//		for (int i = 0; i<dsSoNguyen.size(); i++) {
+//			
+//			//Lấy giá trị phần tử ở vị trí i
+//			Integer tam = dsSoNguyen.get(i);
+//			System.out.print(tam + " ");
+//		}
+		//Mỗi một phần tử x có kiểu dữ liệu là Integer, trong danh sách các phần tử số nguyên này
+		for( Integer x: dsSoNguyen) {
+			System.out.print(x + " ");
+		}
 	}
 
 }
