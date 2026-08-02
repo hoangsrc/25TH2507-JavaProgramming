@@ -12,3 +12,21 @@ public class ChuNhat {
 		this.rong= rong;
 	}
 	
+	//Getter và Setter cho dài và rộng
+	/*--------------Dai--------------*/
+	public double getDai() {
+		return dai;
+	}
+	public void setDai(double dai) {
+		this.dai = dai;
+	}
+	/*--------------Rong-------------*/
+	public double getRong() {
+		return rong;
+	}
+	public void setRong(double rong) {
+		this.rong = rong;
+	}
+
+
+}
