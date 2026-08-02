@@ -23,7 +23,6 @@ public class TongHaiSo {
 		System.out.print("Tổng của " + num1 + " và " + num2 + " là\n" + num1 + " + " + num2 +" = " +sum);
 		
 		
-
 	}
 
 }
