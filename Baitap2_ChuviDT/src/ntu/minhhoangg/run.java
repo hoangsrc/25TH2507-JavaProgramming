@@ -1,4 +1,4 @@
-package minhhoangg;
+package ntu.minhhoangg;
 
 import java.util.Scanner;
 
