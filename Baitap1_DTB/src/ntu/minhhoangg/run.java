@@ -1,3 +1,4 @@
+package ntu.minhhoangg;
 import java.util.Scanner;
 
 public class run {
