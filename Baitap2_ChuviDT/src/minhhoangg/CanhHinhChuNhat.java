@@ -1,4 +1,4 @@
-package ntu.minhhoang;
+package minhhoangg;
 
 public class CanhHinhChuNhat {
 	//Khai báo các thuộc tính
