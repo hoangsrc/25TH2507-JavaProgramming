@@ -31,8 +31,22 @@ public class DanhSachHocVien {
 		}
 		
 		//Thực hiện xử lý để tìm người lớn tuổi nhất
+		//Giả định học viên đầu tiên (vị trí 0) có năm sinh nhỏ nhất
+		//Truy cập vào dsHocVien, lấy ra phần từ đầu và gán vào biến hvNhieuTuoiNhat
 		
+		HocVien hvNieuTuoiNhat = dsHocVien.get(0);
+		for (HocVien x : dsHocVien) {
+			if (x.getNamSinh() < hvNieuTuoiNhat.getNamSinh()) {
+				hvNieuTuoiNhat = x;
+			}
+		}
 		
+		//In ra học viên lớn tuổi nhất
+				System.out.println("\nHọc viên lớn tuổi nhất");
+				System.out.println("Mã HV: " + hvNieuTuoiNhat.getMaHV());
+				System.out.println("Họ tên: " + hvNieuTuoiNhat.getFullName());
+				System.out.println("Giới tính: " + hvNieuTuoiNhat.getGioiTinh());
+				System.out.println("Năm sinh: " + hvNieuTuoiNhat.getNamSinh());
 	}
 
 }
